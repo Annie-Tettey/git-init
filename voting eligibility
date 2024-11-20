@@ -1,0 +1,6 @@
+age = int(input('Age:'))
+country = input('Country:')
+if age >= 18 and country == "Ghana" or country == "ghana":
+    print("You can vote.")
+else:
+    print("You cannot vote.")
