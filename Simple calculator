@@ -1,0 +1,19 @@
+number1 = int(input('First number:'))
+operator = input('operator*+,-,/,*):')
+number2 = int(input('Second number:'))
+
+if operator == "+":
+    result = number1 + number2
+    print(f"Answer={result}")
+
+elif operator == "-":
+    result = number1 - number2
+    print(f"Answer={result}")
+
+elif operator == "*":
+    result = number1 * number2
+    print(f"Answer={result}")
+
+elif operator == "/":
+    result = number1 / number2
+    print(f"Answer={result}")
