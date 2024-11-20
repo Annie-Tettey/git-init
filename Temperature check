@@ -1,0 +1,6 @@
+temperature = int(input('Temperature:'))
+hot = 30
+if temperature >= hot:
+    print("It's hot")
+else:
+    print("It's cold")
