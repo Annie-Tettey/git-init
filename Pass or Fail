@@ -1,0 +1,6 @@
+Score = int(input('my score:'))
+passmark = 50
+if Score >= passmark:
+    print('pass')
+else:
+    print('fail')
